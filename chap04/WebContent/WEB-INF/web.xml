@@ -9,4 +9,18 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  
+  
+  <context-param>
+  	<description> 로깅 여부 </description>
+  	<param-name>logEnabled</param-name>
+  	<param-value>true</param-value>
+  </context-param>
+  
+  <context-param>
+  	<description>디버깅 레벨</description>
+  	<param-name>debugLevel</param-name>
+  	<param-value>5</param-value>
+  </context-param>
+  
 </web-app>

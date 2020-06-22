@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+ 
+<head>
+    <link rel="stylesheet" type="text/css" href="semantic/semantic.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="semantic/semantic.js"></script>
+    <style>
+        .column {
+            border: 1px solid gray
+        }
+        .column>*{
+            back
+        }
+    </style>
+</head>
+ 
+<body>
+    <h1>Basic grid</h1>
+    <div class="ui grid">
+        <div class="column">item1</div>
+        <div class="column">item2</div>
+        <div class="column">item3</div>
+        <div class="column">item4</div>
+        <div class="column">item5</div>
+        <div class="column">item6</div>
+        <div class="column">item7</div>
+        <div class="column">item8</div>
+        <div class="column">item9</div>
+        <div class="column">item10</div>
+        <div class="column">item11</div>
+        <div class="column">item12</div>
+        <div class="column">item13</div>
+        <div class="column">item14</div>
+        <div class="column">item15</div>
+        <div class="column">item16</div>
+    </div>
+    <h1>Merge grid</h1>
+    <div class="ui grid">
+        <div class="three wide column">
+            <div class="ui fluid selection dropdown">
+                <input type="hidden" name="gender">
+                <i class="dropdown icon"></i>
+                <div class="default text">Gender</div>
+                <div class="menu">
+                    <div class="item" data-value="1">Male</div>
+                    <div class="item" data-value="0">Female</div>
+                </div>
+            </div>
+        </div>
+        <div class="two wide column">
+            <button class="ui fluid button">
+              Follow
+            </button>
+        </div>
+        <div class="column">item6</div>
+        <div class="column">item7</div>
+        <div class="column">item8</div>
+        <div class="column">item9</div>
+        <div class="column">item10</div>
+        <div class="column">item11</div>
+        <div class="column">item12</div>
+        <div class="column">item13</div>
+        <div class="column">item14</div>
+        <div class="column">item15</div>
+        <div class="column">item16</div>
+    </div>
+    <h1>Custom width grid</h1>
+    <div class="ui four column grid">
+        <div class="column">item1</div>
+        <div class="column">item2</div>
+        <div class="column">item3</div>
+        <div class="column">item4</div>
+    </div>
+    <h1>Grid row</h1>
+    <div class="ui four column grid">
+        <div class="row">
+            <div class="column">item1</div>
+            <div class="column">item2</div>
+            <div class="column">item3</div>
+            <div class="column">item4</div>
+        </div>
+        <div class="row">
+            <div class="column">item3</div>
+            <div class="column">item4</div>
+            <div class="column">item5</div>
+            <div class="column">item6</div>
+        </div>
+    </div>
+    <h1>Container + grid</h1>
+    <div class="ui four column grid container">
+        <div class="column">item1</div>
+        <div class="column">item2</div>
+        <div class="column">item3</div>
+        <div class="column">item4</div>
+    </div>
+    <h1>Gutters</h1>
+    <div class="ui four column relaxed grid container">
+        <div class="column">item1</div>
+        <div class="column">item2</div>
+        <div class="column">item3</div>
+        <div class="column">item4</div>
+    </div>
+    <h1>Stackable</h1>
+    <div class="ui stackable four column Stackable grid container">
+        <div class="column">item1</div>
+        <div class="column">item2</div>
+        <div class="column">item3</div>
+        <div class="column">item4</div>
+    </div>
+</body>
+</html>
